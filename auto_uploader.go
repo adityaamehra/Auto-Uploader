@@ -14,13 +14,13 @@ import (
 
 const (
 	gitHubAPIURL    = "https://api.github.com"
-	gitHubRepoOwner = "adityaamehra"                             // Replace with your GitHub username
-	gitHubRepoName  = "CodeForces-Solution"                      // Replace with your repository name
-	gitHubToken     = "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" // Replace with your GitHub token
+	gitHubRepoOwner = ""                             // Replace with your GitHub username
+	gitHubRepoName  = ""                      	 // Replace with your repository name
+	gitHubToken     = "" 				 // Replace with your GitHub token
 )
 
 func main() {
-	handle := "Adityaa_Mehra"
+	handle := ""					 // Replace with the CodeForces username
 	submissions := getSubmissions(handle)
 	acceptedProblems := make([]AcceptedProblem, 0, len(submissions))
 	for _, v := range submissions {
